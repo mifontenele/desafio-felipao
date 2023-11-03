@@ -17,9 +17,9 @@ EXEMPLO:
 
 # REGRAS
 
-### Você pode utilizar Javascript ou qualquer outra linguagem da sua preferência
-### Você pode utilizar o playcode.io ou qualquer outra ide da sua preferência
-### Ao final deve submeter o código aqui na plataforma da dio clicando em "entregar projeto"
+Você pode utilizar Javascript ou qualquer outra linguagem da sua preferência
+Você pode utilizar qualquer ide da sua preferência
+Ao final deve submeter o código na plataforma da DIO clicando em "entregar projeto"
 
 
 ![](/assets/output.png)
