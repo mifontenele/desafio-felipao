@@ -1,7 +1,7 @@
 # Desafio surpresa
 
 
-![shape_2.png](Desafio%20surpresa/shape_2.png)
+![shape_2.png](Desafio%20do%20Felipao/assets/shape_2.png)
 
 ### O QUE PRECISA SER FEITO ?
 
@@ -9,7 +9,7 @@ Crie um código para armazenar o máximo de informações possível dos pokemon 
 
 ---
 
-![shape_1.png](Desafio%20surpresa%20/shape_1.png)
+![shape_1.png](Desafio%20do%20Felipao/assets/shape_1.png)
 
 EXEMPLO:
 "DRAGONITE Cadastrado com sucesso"
