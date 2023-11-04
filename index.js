@@ -11,10 +11,9 @@ let nivelHeroi = [
     ["MULHER MARAVILHA", 10200],
 ];
 
-
 for (let index = 0; index < nivelHeroi.length; index++) {
     
-    const nome = nivelHeroi[index];
+    let nome = nivelHeroi[index];
     
     if (nivelHeroi[index][2] <= 1000) {
         let classificacao = "FERRO"
