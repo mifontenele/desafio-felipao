@@ -15,26 +15,26 @@ for (let index = 0; index < cadastroHeroi.length; index++) {
     let nomeSelecionado = cadastroHeroi[index]; // para i=1, por exemplo: {nomeSelecionado = [CAPITÃO AMÉRICA, 1700]}
     let nomeHeroi = nomeSelecionado[0];
     let nivelHeroi = nomeSelecionado[1];
-    let classific = "";
+    let nivel = "";
     
     if (nivelHeroi <= 1000) {
-        classific = "FERRO"
+        nivel = "FERRO"
     } else if (nivelHeroi >= 1001 && nivelHeroi <= 2000) {
-        classific = "BRONZE"
+        nivel = "BRONZE"
     } else if (nivelHeroi >= 2001 && nivelHeroi <= 5000) {
-        classific = "PRATA"
+        nivel = "PRATA"
     } else if (nivelHeroi >= 5001 && nivelHeroi <= 7000) {
-        classific = "OURO"
+        nivel = "OURO"
     } else if (nivelHeroi >= 7001 && nivelHeroi <= 8000) {
-        classific = "PLATINA"
+        nivel = "PLATINA"
     } else if (nivelHeroi >= 8001 && nivelHeroi <= 9000) {
-        classific = "ASCENDENTE"
+        nivel = "ASCENDENTE"
     } else if (nivelHeroi >= 9001 && nivelHeroi <= 10000) {
-        classific = "IMORTAL"
+        nivel = "IMORTAL"
     } else {
-        classific = "RADIANTE"
+        nivel = "RADIANTE"
     } 
   
-    console.log("O Herói de nome " + nomeHeroi + " está no nível " + classific + "!.");
+    console.log("O Herói de nome " + nomeHeroi + " está no nível " + nivel + "!.");
 }
 
