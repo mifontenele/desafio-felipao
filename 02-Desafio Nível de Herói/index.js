@@ -1,4 +1,4 @@
-//cadastroHeroi = [nome, XP]
+//cadastroHeroi = [nome, pontos]
 let cadastroHeroi = [ 
     ["ARLEQUINA", 900],           // i=0 ..... e a cada um deste i's do array é formado por outro array com 2 index dentro dele
     ["CAPITÃO AMÉRICA", 1700],    // i=1
@@ -12,24 +12,23 @@ let cadastroHeroi = [
 
 for (let index = 0; index < cadastroHeroi.length; index++) {
     
-    let nomeSelecionado = cadastroHeroi[index]; // para i=1, por exemplo: {nomeSelecionado = [CAPITÃO AMÉRICA, 1700]}
-    let nomeHeroi = nomeSelecionado[0];
-    let nivelHeroi = nomeSelecionado[1];
-    let nivel = "";
+    let nomeHeroi = cadastroHeroi[index][0];
+    let pontosHeroi = cadastroHeroi[index][1];
+    let nivel = "";    
     
-    if (nivelHeroi <= 1000) {
+    pontosHeroi <= 1000) {
         nivel = "FERRO"
-    } else if (nivelHeroi >= 1001 && nivelHeroi <= 2000) {
+    } else pontosHeroi >= 1001 && pontosHeroi <= 2000) {
         nivel = "BRONZE"
-    } else if (nivelHeroi >= 2001 && nivelHeroi <= 5000) {
+    } else pontosHeroi >= 2001 && pontosHeroi <= 5000) {
         nivel = "PRATA"
-    } else if (nivelHeroi >= 5001 && nivelHeroi <= 7000) {
+    } else pontosHeroi >= 5001 && pontosHeroi <= 7000) {
         nivel = "OURO"
-    } else if (nivelHeroi >= 7001 && nivelHeroi <= 8000) {
+    } else pontosHeroi >= 7001 && pontosHeroi <= 8000) {
         nivel = "PLATINA"
-    } else if (nivelHeroi >= 8001 && nivelHeroi <= 9000) {
+    } else pontosHeroi >= 8001 && pontosHeroi <= 9000) {
         nivel = "ASCENDENTE"
-    } else if (nivelHeroi >= 9001 && nivelHeroi <= 10000) {
+    } else pontosHeroi >= 9001 && pontosHeroi <= 10000) {
         nivel = "IMORTAL"
     } else {
         nivel = "RADIANTE"
@@ -37,4 +36,3 @@ for (let index = 0; index < cadastroHeroi.length; index++) {
   
     console.log("O Herói de nome " + nomeHeroi + " está no nível " + nivel + "!.");
 }
-
