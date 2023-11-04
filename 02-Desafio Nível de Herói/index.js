@@ -16,19 +16,19 @@ for (let index = 0; index < cadastroHeroi.length; index++) {
     let pontosHeroi = cadastroHeroi[index][1];
     let nivel = "";    
     
-    pontosHeroi <= 1000) {
+    if (pontosHeroi <= 1000) {
         nivel = "FERRO"
-    } else pontosHeroi >= 1001 && pontosHeroi <= 2000) {
+    } else if (pontosHeroi >= 1001 && pontosHeroi <= 2000) {
         nivel = "BRONZE"
-    } else pontosHeroi >= 2001 && pontosHeroi <= 5000) {
+    } else if (pontosHeroi >= 2001 && pontosHeroi <= 5000) {
         nivel = "PRATA"
-    } else pontosHeroi >= 5001 && pontosHeroi <= 7000) {
+    } else if (pontosHeroi >= 5001 && pontosHeroi <= 7000) {
         nivel = "OURO"
-    } else pontosHeroi >= 7001 && pontosHeroi <= 8000) {
+    } else if (pontosHeroi >= 7001 && pontosHeroi <= 8000) {
         nivel = "PLATINA"
-    } else pontosHeroi >= 8001 && pontosHeroi <= 9000) {
+    } else if (pontosHeroi >= 8001 && pontosHeroi <= 9000) {
         nivel = "ASCENDENTE"
-    } else pontosHeroi >= 9001 && pontosHeroi <= 10000) {
+    } else if (pontosHeroi >= 9001 && pontosHeroi <= 10000) {
         nivel = "IMORTAL"
     } else {
         nivel = "RADIANTE"
