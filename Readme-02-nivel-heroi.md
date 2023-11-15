@@ -13,7 +13,7 @@ Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de 
 - Se XP for entre 9.001 e 10.000= Imortal
 - Se XP for maior ou igual a 10.001 = Radiante
 
-## O Que deve ser utilizado
+## O que deve ser Utilizado
 
 - Variáveis
 - Operadores

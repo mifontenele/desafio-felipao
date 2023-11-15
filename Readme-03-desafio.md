@@ -1,4 +1,4 @@
-# Calculadora de partidas Rankeadas
+# Calculadora de Partidas Rankeadas
 
 ## Entendendo o Desafio:
  
@@ -13,7 +13,7 @@ depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve s
 - Se vitórias for entre 91 e 100= Lendário
 - Se vitórias for maior ou igual a 101 = Imortal
 
-## O Que deve ser utilizado:
+## O que deve ser Utilizado:
 
 - Variáveis
 - Operadores
